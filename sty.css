@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #addTaskBtn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #addTaskBtn:hover {
+    background: #218838;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  button.delete-btn {
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .filters button {
+    flex: 1;
+    padding: 8px;
+    margin: 0 5px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    background: #0056b3;
+  }
+ body.dark {
+    background: #222;
+    color: #fff;
+  }
+  
+  body.dark .container {
+    background: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  body.dark input,
+  body.dark button,
+  body.dark li {
+    background: #444;
+    color: #fff;
+  }
+  
+  #toggleThemeBtn {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .task {
+    transition: all 0.3s ease;
+    opacity: 1;
+  }
+  
+  .task.fade-out {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  body.dark {
+    background: #222;
+    color: #fff;
+  }
+  
+  body.dark .container {
+    background: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  body.dark input,
+  body.dark button,
+  body.dark li {
+    background: #444;
+    color: #fff;
+  }
+  
+  #toggleThemeBtn {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
